@@ -8,5 +8,5 @@
   (println "Waiting for requests...")
   (println "The args are: "  args)
   (println "And have been parsed to: " parsed-args))
-  (server/run))
+  (server/start 5000))
 
