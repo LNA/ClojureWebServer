@@ -1,10 +1,17 @@
-# clj_http_server
+# clj-http-server
+A Simple HTTP Server in Clojure
 
-A Clojure library designed to ... well, that part is up to you.
+## Running The Server
+lein run -p 5000 -d path/to/cobspec/public
 
-## Usage
+## Running CobSpec
+make sure CobSpec is located in the same dir as the server.
+cd to cobSpec
+run java -jar fitnesse.jar -p 9090
+navigate to localhost:9090
 
-FIXME
+## Testing
+lein speclj
 
 ## License
 
